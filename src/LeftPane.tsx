@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { InboxDto, ConversationDto } from "./chat.d";
-import { TextInputAndButton } from "./TextInput";
+import { TextInputAndButton } from "./TextInputAndButton";
 import { proxy } from "./Proxy";
 import { ConversationCard } from "./ConversationCard";
 

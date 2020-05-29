@@ -132,6 +132,10 @@ flex: 0 0 300px;
   display: none;
 }
 
+.right .right-pane {
+  border: none;
+}
+
 .left .left-pane {
     flex: 1; 
   }

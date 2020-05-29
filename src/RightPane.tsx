@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ConversationDto } from "./chat.d";
 import { proxy } from "./Proxy";
-import { TextInputAndButton } from "./TextInput";
+import { TextInputAndButton } from "./TextInputAndButton";
 import { MessageCard } from "./MessageCard";
 
 export class RightPane extends Component<{ conversation?: ConversationDto, onBack: () => void }>
