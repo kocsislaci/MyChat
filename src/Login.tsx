@@ -5,7 +5,6 @@ import { TextInput } from './TextInput';
 export class Login extends Component
 {
     state = { email: "", password: "", displayName: "", register: false };
-    displayKey = "";  
     render() {
         return (
             <div className="login">
@@ -17,7 +16,6 @@ export class Login extends Component
                                     value={this.state.email} 
                                     onChange={e => 
                                     {
-                                        this.displayKey = e;
                                         if(e == "IG72OK")
                                         {
                                             this.state.displayName = "Kocsis Laszlo";                                               
